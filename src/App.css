@@ -1,7 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 10px;
+}
+
+.dash {
+  width: 80%;
+  margin-left: 3.5%;
+}
+
 .App {
   text-align: center;
   background-color: #282c34;
   min-height: 1040px;
+  display: flex;
 }
 
 .App-logo {

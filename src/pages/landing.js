@@ -38,7 +38,7 @@ function Landing() {
     // }, [])
 
     return (
-        <div className="App">
+        <div className="dash col-sm-10">
             <Carousel fade style={{ marginTop: '5%' }}>
                 <Carousel.Item>
                     <img

@@ -1,11 +1,13 @@
+import {BrowserRouter ,Route, Routes } from 'react-router-dom';
 
 import './App.css';
+import BasicNavbar from './componants/navbar';
 import Landing from './pages/landing';
 import Compare from './pages/compare';
 import Timeline from './pages/timeline'
-import { Route, Routes } from 'react-router-dom';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
-import BasicNavbar from './componants/navbar';
+
 
 function App() {
   return (
