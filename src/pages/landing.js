@@ -1,6 +1,6 @@
 import React from "react";
-// import { useState, useEffect } from "react";
-// import axios from "axios";
+import { useState, useEffect } from "react";
+import axios from "axios";
 import { Card } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 import Marvel from '../Marvel.png'
@@ -10,7 +10,19 @@ import DC from '../DC.png'
 
 function Landing() {
 
-    // const [apiData, setApiData] = useState([]);
+    // const [ quote, setQuote ] = useState('')
+    // const getData = () => {
+    //   axios.get('https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/id/1.json')
+    //     .then(res => {
+    //       console.log(res)
+    //     //   setQuote(res.data.content)
+    //     })
+    //     .catch(err => {
+    //       console.log(err)
+    //     })
+    // }
+
+    // const [apiData, setApiData] = useState('');
     // const [missionName, setMissionName] = useState("Loading");
     // const [missionPatch, setMissionPatch] = useState("");
     // const [launchYear, setLaunchYear] = useState("");
@@ -18,7 +30,7 @@ function Landing() {
 
 
     // useEffect(()=>{
-    //     axios.get('https://api.spacexdata.com/v3/launches')
+    //     axios.get('https://akabab.github.io/superhero-api/api/all.js')
     //     .then((response) => {
     //         console.log(response);
     //         const index = 0;
@@ -31,14 +43,15 @@ function Landing() {
     //         }else{
     //             setLaunchSuccess("Failed")
     //         }
-    //     })
-    //     .catch((error) => {
-    //         console.log(error);
-    //     })
+        // })
+        // .catch((error) => {
+        //     console.log(error);
+        // })
     // }, [])
 
     return (
         <div className="dash col-sm-10">
+            <button onClick={getData}>Click me for data</button>
             <Carousel fade style={{ marginTop: '5%' }}>
                 <Carousel.Item>
                     <img
