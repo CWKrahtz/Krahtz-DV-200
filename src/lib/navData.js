@@ -22,4 +22,11 @@ export const navData = [
         text: "Timeline",
         link: "/time"
     }
+    // ,
+    // {
+    //     id: 3,
+    //     icon: <BarChartIcon />,
+    //     text: "Test",
+    //     link: "/test"
+    // }
 ]

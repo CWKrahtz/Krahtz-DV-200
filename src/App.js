@@ -5,6 +5,7 @@ import BasicNavbar from './componants/navbar';
 import Landing from './pages/landing';
 import Compare from './pages/compare';
 import Timeline from './pages/timeline'
+import Test from './pages/test';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -16,8 +17,9 @@ function App() {
       <Routes>
 
         <Route path='/' element={<Landing />} />
-        <Route path='/time' element={<Timeline />} />
         <Route path='/compare' element={<Compare />} />
+        <Route path='/time' element={<Timeline />} />
+        <Route path='/test' element={<Test />} />
 
       </Routes>
 
